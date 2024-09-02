@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/css/index.css">
+    <title>Mi Portafolio</title>
+</head>
+<body>
+    <header>
+        <div class="language-selector">
+            <select id="language-select">
+                <option value="es">Español</option>
+                <option value="en">English</option>
+                <option value="ru">Русский</option>
+                <option value="zh">中文</option>
+                <option value="de">Deutsch</option>
+            </select>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#inicio" data-es="Inicio" data-en="Home" data-ru="Главная" data-zh="首页" data-de="Startseite">Inicio</a></li>               
+                <li><a href="#habilidades" data-es="Habilidades" data-en="Skills" data-ru="Навыки" data-zh="技能" data-de="Fähigkeiten">Habilidades</a></li>
+                <li><a href="#proyectos" data-es="Proyectos" data-en="Projects" data-ru="Проекты" data-zh="项目" data-de="Projekte">Proyectos</a></li>
+                <li><a href="#sobre-mi" data-es="Sobre Mí" data-en="About Me" data-ru="Обо мне" data-zh="关于我" data-de="Über mich">Sobre Mí</a></li>
+                <li><a href="#contacto" data-es="Contacto" data-en="Contact" data-ru="Контакт" data-zh="联系" data-de="Kontakt">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio" class="hero">
+        <div class="content">
+            <img src="styles/img/mi-foto.jpg" alt="Foto de Lucas Recarey">
+            <h1 data-es="Hola, soy Lucas Recarey" data-en="Hi, I'm Lucas Recarey" data-ru="Привет, я Lucas Recarey" data-zh="你好，我是Lucas Recarey" data-de="Hallo, ich bin Lucas Recarey">Hola, soy Lucas Recarey</h1>
+            <p data-es="Bienvenido a mi portafolio web, donde podrás conocer mis proyectos y habilidades." data-en="Welcome to my web portfolio, where you can learn about my projects and skills." data-ru="Добро пожаловать на мой веб-портфолио, где вы можете узнать о моих проектах и навыках." data-zh="欢迎来到我的网页作品集，您可以了解我的项目和技能。" data-de="Willkommen in meinem Web-Portfolio, wo Sie mehr über meine Projekte und Fähigkeiten erfahren können.">Bienvenido a mi portafolio web, donde podrás conocer mis proyectos y habilidades.</p>
+        </div>
+    </section>
+
+    <section id="habilidades" class="section">
+        <h2 data-es="Habilidades" data-en="Skills" data-ru="Навыки" data-zh="技能" data-de="Fähigkeiten">Habilidades</h2>
+        <table class="skills-table">
+            <caption data-es="Lenguajes de Programación" data-en="Programming Languages" data-ru="Языки программирования" data-zh="编程语言" data-de="Programmiersprachen">Lenguajes de Programación</caption>
+            <thead>
+                <tr>
+                    <th data-es="Lenguaje" data-en="Language" data-ru="Язык" data-zh="语言" data-de="Sprache">Lenguaje</th>
+                    <th data-es="Nivel" data-en="Proficiency" data-ru="Уровень" data-zh="水平" data-de="Niveau">Nivel</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Python</td>
+                    <td class="skill-level" data-es="Avanzado" data-en="Advanced" data-ru="Продвинутый" data-zh="高级" data-de="Fortgeschritten">Avanzado</td>
+                </tr>
+                <tr>
+                    <td>Java</td>
+                    <td class="skill-level" data-es="Intermedio" data-en="Intermediate" data-ru="Средний" data-zh="中级" data-de="Mittelstufe">Intermedio</td>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td class="skill-level" data-es="Intermedio" data-en="Intermediate" data-ru="Средний" data-zh="中级" data-de="Mittelstufe">Intermedio</td>
+                </tr>
+                <tr>
+                    <td>HTML</td>
+                    <td class="skill-level" data-es="Avanzado" data-en="Advanced" data-ru="Продвинутый" data-zh="高级" data-de="Fortgeschritten">Avanzado</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td class="skill-level" data-es="Avanzado" data-en="Advanced" data-ru="Продвинутый" data-zh="高级" data-de="Fortgeschritten">Avanzado</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="proyectos" class="section">
+        <h2 data-es="Proyectos" data-en="Projects" data-ru="Проекты" data-zh="项目" data-de="Projekte">Proyectos</h2>
+        <div class="proyectos-container">
+            <div class="proyecto-card">
+                <img src="styles/img/hacked.gif" alt="Proyecto 1 GIF" class="proyecto-gif">
+                <div class="proyecto-info">
+                    <h3 data-es="Proyecto 1" data-en="Project 1" data-ru="Проект 1" data-zh="项目 1" data-de="Projekt 1">Proyecto 1</h3>
+                    <p data-es="Descripción breve del proyecto 1." data-en="Brief description of project 1." data-ru="Краткое описание проекта 1." data-zh="项目 1 的简要描述。" data-de="Kurze Beschreibung von Projekt 1.">Descripción breve del proyecto 1.</p>
+                    <a href="https://github.com/tuusuario/proyecto1" target="_blank" data-es="Ver en GitHub" data-en="View on GitHub" data-ru="Посмотреть на GitHub" data-zh="在 GitHub 上查看" data-de="Auf GitHub ansehen">Ver en GitHub</a>
+                </div>
+            </div>
+            <div class="proyecto-card">
+                <img src="styles/img/hacked.gif" alt="Proyecto 2 GIF" class="proyecto-gif">
+                <div class="proyecto-info">
+                    <h3 data-es="Proyecto 2" data-en="Project 2" data-ru="Проект 2" data-zh="项目 2" data-de="Projekt 2">Proyecto 2</h3>
+                    <p data-es="Descripción breve del proyecto 2." data-en="Brief description of project 2." data-ru="Краткое описание проекта 2." data-zh="项目 2 的简要描述。" data-de="Kurze Beschreibung von Projekt 2.">Descripción breve del proyecto 2.</p>
+                    <a href="https://github.com/tuusuario/proyecto2" target="_blank" data-es="Ver en GitHub" data-en="View on GitHub" data-ru="Посмотреть на GitHub" data-zh="在 GitHub 上查看" data-de="Auf GitHub ansehen">Ver en GitHub</a>
+                </div>
+            </div>
+            <div class="proyecto-card">
+                <img src="styles/img/hacked.gif" alt="Proyecto 3 GIF" class="proyecto-gif">
+                <div class="proyecto-info">
+                    <h3 data-es="Proyecto 3" data-en="Project 3" data-ru="Проект 3" data-zh="项目 3" data-de="Projekt 3">Proyecto 3</h3>
+                    <p data-es="Descripción breve del proyecto 3." data-en="Brief description of project 3." data-ru="Краткое описание проекта 3." data-zh="项目 3 的简要描述。" data-de="Kurze Beschreibung von Projekt 3.">Descripción breve del proyecto 3.</p>
+                    <a href="https://github.com/tuusuario/proyecto3" target="_blank" data-es="Ver en GitHub" data-en="View on GitHub" data-ru="Посмотреть на GitHub" data-zh="在 GitHub 上查看" data-de="Auf GitHub ansehen">Ver en GitHub</a>
+                </div>
+            </div>
+            <div class="proyecto-card">
+                <img src="styles/img/hacked.gif" alt="Proyecto 4 GIF" class="proyecto-gif">
+                <div class="proyecto-info">
+                    <h3 data-es="Proyecto 4" data-en="Project 4" data-ru="Проект 4" data-zh="项目 4" data-de="Projekt 4">Proyecto 4</h3>
+                    <p data-es="Descripción breve del proyecto 4." data-en="Brief description of project 4." data-ru="Краткое описание проекта 4." data-zh="项目 4 的简要描述。" data-de="Kurze Beschreibung von Projekt 4.">Descripción breve del proyecto 4.</p>
+                    <a href="https://github.com/tuusuario/proyecto4" target="_blank" data-es="Ver en GitHub" data-en="View on GitHub" data-ru="Посмотреть на GitHub" data-zh="在 GitHub 上查看" data-de="Auf GitHub ansehen">Ver en GitHub</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre-mi" class="section">
+        <h2 data-es="Sobre Mí" data-en="About Me" data-ru="Обо мне" data-zh="关于我" data-de="Über mich">Sobre Mí</h2>
+        <p data-es="Soy un desarrollador con experiencia en Python, Java, JavaScript, HTML y CSS. Me apasiona crear soluciones elegantes y funcionales, siempre estoy buscando nuevos desafíos para mejorar mis habilidades y conocimientos." data-en="I am a developer with experience in Python, Java, JavaScript, HTML, and CSS. I am passionate about creating elegant and functional solutions, and I am always looking for new challenges to improve my skills and knowledge." data-ru="Я разработчик с опытом работы в Python, Java, JavaScript, HTML и CSS. Мне нравится создавать элегантные и функциональные решения, и я всегда ищу новые вызовы, чтобы улучшить свои навыки и знания." data-zh="我是一名具有 Python、Java、JavaScript、HTML 和 CSS 经验的开发人员。我热衷于创建优雅和功能性的解决方案，并且总是寻找新的挑战来提升自己的技能和知识。" data-de="Ich bin ein Entwickler mit Erfahrung in Python, Java, JavaScript, HTML und CSS. Ich bin leidenschaftlich daran interessiert, elegante und funktionale Lösungen zu schaffen, und immer auf der Suche nach neuen Herausforderungen, um meine Fähigkeiten und mein Wissen zu verbessern.">Soy un desarrollador con experiencia en Python, Java, JavaScript, HTML y CSS. Me apasiona crear soluciones elegantes y funcionales, y siempre estoy buscando nuevos desafíos para mejorar mis habilidades y conocimientos.</p>
+    </section>
+
+    <section id="contacto" class="section">
+        <h2 data-es="Contacto" data-en="Contact" data-ru="Контакт" data-zh="联系" data-de="Kontakt">Contacto</h2>
+        <p data-es="lucasrecarey12@gmail.com" data-en="lucasrecarey12@gmail.com" data-ru="lucasrecarey12@gmail.com" data-zh="lucasrecarey12@gmail.com" data-de="lucasrecarey12@gmail.com">lucasrecarey12@gmail.com</p>
+        <p data-es="Averigua más sobre mí en" data-en="Find out more about me" data-ru="Узнайте больше обо мне" data-zh="了解更多关于我" data-de="Erfahren Sie mehr über mich">Averigua más sobre mí en</p>
+        <ul>
+            <li><a href="https://www.linkedin.com/in/tu-perfil-linkedin" data-es="LinkedIn" data-en="LinkedIn" data-ru="LinkedIn" data-zh="LinkedIn" data-de="LinkedIn">LinkedIn</a></li>
+            <li><a href="https://github.com/tuusuario" data-es="GitHub" data-en="GitHub" data-ru="GitHub" data-zh="GitHub" data-de="GitHub">GitHub</a></li>
+        </ul>
+    </section>
+
+    <footer>
+        <p data-es="&copy; 2024 Mi Nombre. Todos los derechos reservados." data-en="&copy; 2024 Lucas Recarey. All rights reserved." data-ru="&copy; 2024 Lucas Recarey. Все права защищены." data-zh="&copy; 2024 Lucas Recarey. 版权所有。" data-de="&copy; 2024 Lucas Recarey. Alle Rechte vorbehalten.">&copy; 2024 Lucas Recarey. Todos los derechos reservados.</p>
+    </footer>
+
+    <script>
+        // Funcionalidad para cambiar idioma
+        const languageSelect = document.getElementById('language-select');
+    
+        languageSelect.addEventListener('change', (event) => {
+            const lang = event.target.value;
+            if (lang === 'en') {
+                document.querySelectorAll('[data-es]').forEach(el => {
+                    el.innerText = el.getAttribute('data-en');
+                });
+                document.querySelectorAll('[data-ru]').forEach(el => {
+                    el.innerText = el.getAttribute('data-en');
+                });
+                document.querySelectorAll('[data-zh]').forEach(el => {
+                    el.innerText = el.getAttribute('data-en');
+                });
+                document.querySelectorAll('[data-de]').forEach(el => {
+                    el.innerText = el.getAttribute('data-en');
+                });
+            } else if (lang === 'ru') {
+                document.querySelectorAll('[data-es]').forEach(el => {
+                    el.innerText = el.getAttribute('data-ru');
+                });
+                document.querySelectorAll('[data-en]').forEach(el => {
+                    el.innerText = el.getAttribute('data-ru');
+                });
+                document.querySelectorAll('[data-zh]').forEach(el => {
+                    el.innerText = el.getAttribute('data-ru');
+                });
+                document.querySelectorAll('[data-de]').forEach(el => {
+                    el.innerText = el.getAttribute('data-ru');
+                });
+            } else if (lang === 'zh') {
+                document.querySelectorAll('[data-es]').forEach(el => {
+                    el.innerText = el.getAttribute('data-zh');
+                });
+                document.querySelectorAll('[data-en]').forEach(el => {
+                    el.innerText = el.getAttribute('data-zh');
+                });
+                document.querySelectorAll('[data-ru]').forEach(el => {
+                    el.innerText = el.getAttribute('data-zh');
+                });
+                document.querySelectorAll('[data-de]').forEach(el => {
+                    el.innerText = el.getAttribute('data-zh');
+                });
+            } else if (lang === 'de') {
+                document.querySelectorAll('[data-es]').forEach(el => {
+                    el.innerText = el.getAttribute('data-de');
+                });
+                document.querySelectorAll('[data-en]').forEach(el => {
+                    el.innerText = el.getAttribute('data-de');
+                });
+                document.querySelectorAll('[data-ru]').forEach(el => {
+                    el.innerText = el.getAttribute('data-de');
+                });
+                document.querySelectorAll('[data-zh]').forEach(el => {
+                    el.innerText = el.getAttribute('data-de');
+                });
+            } else {
+                document.querySelectorAll('[data-en]').forEach(el => {
+                    el.innerText = el.getAttribute('data-es');
+                });
+                document.querySelectorAll('[data-ru]').forEach(el => {
+                    el.innerText = el.getAttribute('data-es');
+                });
+                document.querySelectorAll('[data-zh]').forEach(el => {
+                    el.innerText = el.getAttribute('data-es');
+                });
+                document.querySelectorAll('[data-de]').forEach(el => {
+                    el.innerText = el.getAttribute('data-es');
+                });
+            }
+        });
+    </script>
+    
+</body>
+</html>
+
